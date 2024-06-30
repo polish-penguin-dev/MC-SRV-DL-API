@@ -4,9 +4,41 @@
     Code Credit License - LICENSE.md
     Alex Wegrzyn
 */
+import paper from "./sources/paper.js";
 
 import express from "express";
 import cors from "cors";
 
 const app = express();
 app.use(cors());
+
+const sources = ["vanilla", "paper", "purpur"];
+
+app.get("/", (req, res) => {
+    res.redirect(301, "https://github.com/polish-penguin-dev/MC-SRV-DL-API");
+});
+
+app.get("/download/:software/:version/:build?", (req, res) => {
+    const { software, version, build } = req.params;
+
+    if(!sources.includes(software)) return res.status(400).json({ error: true, msg: "Invalid Software Type!" });
+    if(!build && software !== "vanilla") return res.status(400).json({ error: true, msg: "Include Build!" });
+
+    switch(software) {
+        case "vanilla":
+            break;
+        case "paper":
+            break;
+        case "purpur":
+            break;
+    }
+});
+
+app.use((req, res) => {
+    res.status(404).json({ error: true, msg: "Not Found! Did You Specify Required Parameters (Software, Version)?" })
+});
+
+const port = 3000;
+
+app.listen(port);
+console.log(`App listening on port ${port}`);
