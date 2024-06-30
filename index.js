@@ -4,12 +4,12 @@
     Code Credit License - LICENSE.md
     Alex Wegrzyn
 */
-import paper from "./sources/paper.js";
-import purpur from "./sources/purpur.js";
-import vanilla from "./sources/vanilla.js";
+const paper = require("./sources/paper.js");
+const purpur = require("./sources/purpur.js");
+const vanilla = require("./sources/vanilla.js");
 
-import express from "express";
-import cors from "cors";
+const express = require("express");
+const cors = require("cors");
 
 const app = express();
 app.use(cors());
