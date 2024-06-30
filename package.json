@@ -1,0 +1,23 @@
+{
+  "name": "mc-srv-dl-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Download Minecraft Server Software With Ease!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "api",
+    "server",
+    "download"
+  ],
+  "author": "Alex Wegrzyn",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
