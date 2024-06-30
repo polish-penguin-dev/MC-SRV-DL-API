@@ -38,7 +38,7 @@ app.get("/download/:software/:version/:build?", (req, res) => {
 });
 
 app.use((req, res) => {
-    res.status(404).json({ error: true, msg: "Page Not Found! Did You Specify Required Parameters (Software, Version)?" })
+    res.status(404).json({ error: true, msg: "Page Not Found! For Download Endpoint, Did You Specify Required Parameters (Software, Version)?" })
 });
 
 const port = 3000;
