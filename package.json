@@ -1,5 +1,6 @@
 {
   "name": "mc-srv-dl-api",
+  "type": "module",
   "version": "1.0.0",
   "description": "Download Minecraft Server Software With Ease!",
   "main": "index.js",
@@ -17,6 +18,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^3.3.2"
   }
 }

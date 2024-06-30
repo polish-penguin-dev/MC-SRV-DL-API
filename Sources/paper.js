@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
-async function paper(version, build, res) {
+export default async function paper(version, build, res) {
     const paper = await (await fetch("https://api.papermc.io/v2/projects/paper")).json();
     if(!paper.versions.includes(version) && version !== "latest") return res.status(400).json({ error: true, msg: "Invalid Version Number!" });
 
@@ -18,5 +18,3 @@ async function paper(version, build, res) {
     const buildinfo = await (await fetch(`https://api.papermc.io/v2/projects/paper/versions/${version}/builds/${build}`)).json();
     res.redirect(301, `https://api.papermc.io/v2/projects/paper/versions/${version}/builds/${build}/downloads/${buildinfo.downloads.application.name}`);
 }
-
-module.exports = paper;

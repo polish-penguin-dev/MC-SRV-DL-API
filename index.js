@@ -4,12 +4,12 @@
     Code Credit License - LICENSE.md
     Alex Wegrzyn
 */
-const paper = require("./sources/paper.js");
-const purpur = require("./sources/purpur.js");
-const vanilla = require("./sources/vanilla.js");
+import paper from "./sources/paper.js";
+import purpur from "./sources/purpur.js";
+import vanilla from "./sources/vanilla.js";
 
-const express = require("express");
-const cors = require("cors");
+import express from "express";
+import cors from "cors";
 
 const app = express();
 app.use(cors());
@@ -47,5 +47,3 @@ const port = 3000;
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 });
-
-module.exports = app;

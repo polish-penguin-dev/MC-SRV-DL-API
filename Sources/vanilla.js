@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
-async function vanilla(version, res) {
+export default async function vanilla(version, res) {
     const manifest = await (await fetch("https://launchermeta.mojang.com/mc/game/version_manifest.json")).json();
     let versioninfo = manifest.versions.find(v => v.id === version);
 
@@ -13,5 +13,3 @@ async function vanilla(version, res) {
     const versionurl = await (await fetch(versioninfo.url)).json();
     res.redirect(301, versionurl.downloads.server.url);
 }
-
-module.exports = vanilla;

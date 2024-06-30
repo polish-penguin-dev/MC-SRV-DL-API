@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
-async function purpur(version, build, res) {
+export default async function purpur(version, build, res) {
     const purpur = await (await fetch("https://api.purpurmc.org/v2/purpur")).json();
     if(!purpur.versions.includes(version) && version !== "latest") return res.status(400).json({ error: true, msg: "Invalid Version Number!" });
 
@@ -17,5 +17,3 @@ async function purpur(version, build, res) {
 
     res.redirect(301, `https://api.purpurmc.org/v2/purpur/${version}/${build}/download`);
 }
-
-module.exports = purpur;
