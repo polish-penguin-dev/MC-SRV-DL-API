@@ -28,6 +28,7 @@ app.get("/download/:software/:version/:build?", (req, res) => {
         case "vanilla":
             break;
         case "paper":
+            paper(version, build, res);
             break;
         case "purpur":
             break;
@@ -35,7 +36,7 @@ app.get("/download/:software/:version/:build?", (req, res) => {
 });
 
 app.use((req, res) => {
-    res.status(404).json({ error: true, msg: "Not Found! Did You Specify Required Parameters (Software, Version)?" })
+    res.status(404).json({ error: true, msg: "Page Not Found! Did You Specify Required Parameters (Software, Version)?" })
 });
 
 const port = 3000;
