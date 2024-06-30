@@ -5,6 +5,7 @@
     Alex Wegrzyn
 */
 import paper from "./sources/paper.js";
+import purpur from "./sources/purpur.js";
 
 import express from "express";
 import cors from "cors";
@@ -31,6 +32,7 @@ app.get("/download/:software/:version/:build?", (req, res) => {
             paper(version, build, res);
             break;
         case "purpur":
+            purpur(version, build, res);
             break;
     }
 });
