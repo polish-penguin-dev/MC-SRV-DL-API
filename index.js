@@ -6,6 +6,7 @@
 */
 import paper from "./sources/paper.js";
 import purpur from "./sources/purpur.js";
+import vanilla from "./sources/vanilla.js";
 
 import express from "express";
 import cors from "cors";
@@ -27,6 +28,7 @@ app.get("/download/:software/:version/:build?", (req, res) => {
 
     switch(software) {
         case "vanilla":
+            vanilla(version, res);
             break;
         case "paper":
             paper(version, build, res);
