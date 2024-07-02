@@ -8,6 +8,7 @@ import paper from "./sources/paper.js";
 import purpur from "./sources/purpur.js";
 import vanilla from "./sources/vanilla.js";
 import folia from "./sources/folia.js";
+import velocity from "./sources/velocity.js";
 
 import express from "express";
 import cors from "cors";
@@ -15,10 +16,10 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const sources = ["vanilla", "paper", "purpur", "folia"];
+const sources = ["vanilla", "paper", "purpur", "folia", "velocity"];
 
 app.get("/", (req, res) => {
-    res.redirect(301, "https://github.com/polish-penguin-dev/MC-SRV-DL-API");
+    res.redirect(301, "https://polish-penguin-dev.github.io/MC-SRV-DL-API/");
 });
 
 app.get("/download/:software/:version/:build?", (req, res) => {
@@ -40,6 +41,8 @@ app.get("/download/:software/:version/:build?", (req, res) => {
         case "folia":
             folia(version, build, res);
             break;
+        case "velocity":
+            velocity(version, build, res);
     }
 });
 

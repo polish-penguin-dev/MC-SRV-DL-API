@@ -10,6 +10,7 @@ Supported Softwares:
 - Paper
 - Purpur
 - Folia
+- Velocity
 
 ## Usage
 

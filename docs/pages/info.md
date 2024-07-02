@@ -7,10 +7,10 @@ Supported softwares:
 - Paper
 - Purpur
 - Folia
+- Velocity
 
 Softwares to be added:
 
-- Velocity
 - Waterfall
 - Bukkit
 - Spigot

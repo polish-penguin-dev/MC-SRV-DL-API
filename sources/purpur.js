@@ -9,7 +9,7 @@ export default async function purpur(version, build, res) {
     }
 
     const versioninfo = await (await fetch(`https://api.purpurmc.org/v2/purpur/${version}`)).json();
-    if(!versioninfo.builds.all.includes(build) && build !== "latest") return res.status(400).json({ error: true, msg: "Invalid Build Number!" });
+    if(!versioninfo.builds.all.includes(parseInt(build)) && build !== "latest") return res.status(400).json({ error: true, msg: "Invalid Build Number!" });
 
     if(build === "latest") {
         build = versioninfo.builds.latest;

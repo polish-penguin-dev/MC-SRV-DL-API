@@ -9,7 +9,7 @@ export default async function paper(version, build, res) {
     }
 
     const versioninfo = await (await fetch(`https://api.papermc.io/v2/projects/paper/versions/${version}`)).json();
-    if(!versioninfo.builds.includes(build) && build !== "latest") return res.status(400).json({ error: true, msg: "Invalid Build Number!" });
+    if(!versioninfo.builds.includes(parseInt(build)) && build !== "latest") return res.status(400).json({ error: true, msg: "Invalid Build Number!" });
 
     if(build === "latest") {
         build = versioninfo.builds[versioninfo.builds.length - 1];
