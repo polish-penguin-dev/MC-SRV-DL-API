@@ -7,7 +7,7 @@ To solve this issue, ensure that you are using the correct URL and spellings, as
 
 **Include Build!**
 
-This is a HTTP 400 error (bad request). Like the error above, ensure you are including the [build]parameter which is also required for all softwares but vanilla.
+This is a HTTP 400 error (bad request). Like the error above, ensure you are including the [build] parameter which is also required for all softwares but vanilla.
 
 **Invalid Software Type!**
 
