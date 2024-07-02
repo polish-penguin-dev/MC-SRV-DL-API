@@ -9,6 +9,7 @@ Supported Softwares:
 - Vanilla
 - Paper
 - Purpur
+- Folia
 
 ## Usage
 

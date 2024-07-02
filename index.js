@@ -7,6 +7,7 @@
 import paper from "./sources/paper.js";
 import purpur from "./sources/purpur.js";
 import vanilla from "./sources/vanilla.js";
+import folia from "./sources/folia.js";
 
 import express from "express";
 import cors from "cors";
@@ -14,7 +15,7 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const sources = ["vanilla", "paper", "purpur"];
+const sources = ["vanilla", "paper", "purpur", "folia"];
 
 app.get("/", (req, res) => {
     res.redirect(301, "https://github.com/polish-penguin-dev/MC-SRV-DL-API");
@@ -35,6 +36,9 @@ app.get("/download/:software/:version/:build?", (req, res) => {
             break;
         case "purpur":
             purpur(version, build, res);
+            break;
+        case "folia":
+            folia(version, build, res);
             break;
     }
 });

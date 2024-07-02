@@ -6,10 +6,10 @@ Supported softwares:
 - Vanilla
 - Paper
 - Purpur
+- Folia
 
 Softwares to be added:
 
-- Folia
 - Velocity
 - Waterfall
 - Bukkit
