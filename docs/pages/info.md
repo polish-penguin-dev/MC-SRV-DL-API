@@ -11,7 +11,6 @@ Supported softwares:
 
 Softwares to be added:
 
-- Waterfall
 - Bukkit
 - Spigot
 - Pufferfish
@@ -20,3 +19,4 @@ Softwares to be added:
 Softwares that will not be added:
 
 - MohistMC (Shady practises)
+- Waterfall (End of life)
