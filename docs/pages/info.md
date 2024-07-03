@@ -20,3 +20,5 @@ Softwares that will not be added:
 
 - MohistMC (Shady practises)
 - Waterfall (End of life)
+
+To suggest new softwares, please open an issue.

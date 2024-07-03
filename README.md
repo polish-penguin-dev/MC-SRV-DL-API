@@ -14,6 +14,8 @@ Supported Softwares:
 - Folia
 - Velocity
 
+To suggest new softwares, please open an issue.
+
 ## Usage
 
 Format: `/download/{SOFTWARE}/{VERSION}/{BUILD}`.
