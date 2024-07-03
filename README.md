@@ -13,6 +13,7 @@ Supported Softwares:
 - Purpur
 - Folia
 - Velocity
+- Sponge (experimental)
 
 To suggest new softwares, please open an issue.
 

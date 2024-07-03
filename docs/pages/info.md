@@ -8,13 +8,12 @@ Supported softwares:
 - Purpur
 - Folia
 - Velocity
+- Sponge (experimental)
 
 Softwares to be added:
 
-- Bukkit
-- Spigot
 - Pufferfish
-- Sponge
+
 
 Softwares that will not be added:
 
