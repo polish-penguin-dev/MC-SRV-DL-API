@@ -1,8 +1,9 @@
-# Minecraft Server Software Download API
+![powered-by-nodejs](https://github.com/polish-penguin-dev/MC-SRV-DL-API/assets/74113025/0dec0272-31bd-4901-8fcd-d4191ea9d454)# Minecraft Server Software Download API
 
 ## Download Minecraft Server Software With Ease!
 
-[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTkuMjY1NjQwMjU4Nzg5MDYiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxOTkuMjY1NjQwMjU4Nzg5MDYgMzUiPjxyZWN0IHdpZHRoPSIxMTIuNjQwNjMyNjI5Mzk0NTMiIGhlaWdodD0iMzUiIGZpbGw9IiM3ZWQzMjEiLz48cmVjdCB4PSIxMTIuNjQwNjMyNjI5Mzk0NTMiIHdpZHRoPSI4Ni42MjUwMDc2MjkzOTQ1MyIgaGVpZ2h0PSIzNSIgZmlsbD0iIzQxNzUwNSIvPjx0ZXh0IHg9IjU2LjMyMDMxNjMxNDY5NzI2NiIgeT0iMjEuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidSb2JvdG8nLCBzYW5zLXNlcmlmIiBmaWxsPSIjRkZGRkZGIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+UE9XRVJFRCBCWTwvdGV4dD48dGV4dCB4PSIxNTUuOTUzMTM2NDQ0MDkxOCIgeT0iMjEuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidNb250c2VycmF0Jywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPk5PREVKUzwvdGV4dD48L3N2Zz4=)](https://forthebadge.com)
+<svg xmlns="http://www.w3.org/2000/svg" width="199.26564025878906" height="35" viewBox="0 0 199.26564025878906 35"><rect width="112.64063262939453" height="35" fill="#7ed321"/><rect x="112.64063262939453" width="86.62500762939453" height="35" fill="#417505"/><text x="56.320316314697266" y="21.5" font-size="12" font-family="'Roboto', sans-serif" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">POWERED BY</text><text x="155.9531364440918" y="21.5" font-size="12" font-family="'Montserrat', sans-serif" fill="#FFFFFF" text-anchor="middle" font-weight="900" letter-spacing="2">NODEJS</text></svg>
+
 
 MC-SRV-DL-API Is a simple API that allows you to download minecraft server softwares all in one place.
 
