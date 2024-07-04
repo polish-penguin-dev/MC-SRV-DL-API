@@ -2,7 +2,9 @@
 
 ## Download Minecraft Server Software With Ease!
 
-![powered-by-nodejs](https://github.com/polish-penguin-dev/MC-SRV-DL-API/assets/74113025/0dec0272-31bd-4901-8fcd-d4191ea9d454)
+![powered-by-nodejs](https://github.com/polish-penguin-dev/MC-SRV-DL-API/assets/74113025/0dec0272-31bd-4901-8fcd-d4191ea9d454) ![read-the-docs](https://github.com/polish-penguin-dev/MC-SRV-DL-API/assets/74113025/cd3f6405-16ac-4acf-9ece-d942b58e854c) ![made-with-❤](https://github.com/polish-penguin-dev/MC-SRV-DL-API/assets/74113025/7bb82dc3-6391-46e7-827b-9dba6be53940)
+
+
 
 MC-SRV-DL-API Is a simple API that allows you to download minecraft server softwares all in one place.
 
